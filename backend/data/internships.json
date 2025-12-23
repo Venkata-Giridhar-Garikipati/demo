@@ -1,0 +1,245 @@
+{
+    "internships": [
+        {
+            "id": "INT001",
+            "title": "Software Development Intern",
+            "company": "TCS - Tata Consultancy Services",
+            "sector": "IT & Software",
+            "location": "Delhi",
+            "duration": "3 months",
+            "stipend": "₹5,000/month",
+            "education_required": "Bachelor's Degree",
+            "required_skills": [
+                "Python",
+                "Java",
+                "Communication"
+            ],
+            "description": "Learn software development with India's leading IT company"
+        },
+        {
+            "id": "INT002",
+            "title": "Digital Marketing Intern",
+            "company": "Flipkart",
+            "sector": "Marketing & Sales",
+            "location": "Bangalore",
+            "duration": "2 months",
+            "stipend": "₹4,000/month",
+            "education_required": "12th Pass",
+            "required_skills": [
+                "Social Media",
+                "Communication",
+                "English"
+            ],
+            "description": "Help promote products on social media and online platforms"
+        },
+        {
+            "id": "INT003",
+            "title": "Manufacturing Trainee",
+            "company": "Mahindra & Mahindra",
+            "sector": "Manufacturing",
+            "location": "Mumbai",
+            "duration": "6 months",
+            "stipend": "₹6,000/month",
+            "education_required": "Diploma",
+            "required_skills": [
+                "Manual Work",
+                "Hindi",
+                "Communication"
+            ],
+            "description": "Learn manufacturing processes and quality control"
+        },
+        {
+            "id": "INT004",
+            "title": "Data Entry Operator",
+            "company": "ICICI Bank",
+            "sector": "Finance & Banking",
+            "location": "Delhi",
+            "duration": "3 months",
+            "stipend": "₹3,500/month",
+            "education_required": "12th Pass",
+            "required_skills": [
+                "MS Office",
+                "Data Entry",
+                "English"
+            ],
+            "description": "Enter customer data and maintain bank records"
+        },
+        {
+            "id": "INT005",
+            "title": "Customer Service Executive",
+            "company": "Reliance Jio",
+            "sector": "IT & Software",
+            "location": "Remote",
+            "duration": "2 months",
+            "stipend": "₹4,500/month",
+            "education_required": "12th Pass",
+            "required_skills": [
+                "Communication",
+                "Hindi",
+                "Customer Service"
+            ],
+            "description": "Help customers with their mobile and internet services"
+        },
+        {
+            "id": "INT006",
+            "title": "Teaching Assistant",
+            "company": "Byju's",
+            "sector": "Education",
+            "location": "Hyderabad",
+            "duration": "4 months",
+            "stipend": "₹5,500/month",
+            "education_required": "Bachelor's Degree",
+            "required_skills": [
+                "Teaching",
+                "Communication",
+                "English"
+            ],
+            "description": "Support teachers and help students with online learning"
+        },
+        {
+            "id": "INT007",
+            "title": "Sales Intern",
+            "company": "Asian Paints",
+            "sector": "Marketing & Sales",
+            "location": "Mumbai",
+            "duration": "3 months",
+            "stipend": "₹3,000/month + Commission",
+            "education_required": "10th Pass",
+            "required_skills": [
+                "Sales",
+                "Communication",
+                "Hindi"
+            ],
+            "description": "Visit shops and help sell paint products"
+        },
+        {
+            "id": "INT008",
+            "title": "Agriculture Extension Intern",
+            "company": "ITC Limited",
+            "sector": "Agriculture",
+            "location": "Madhya Pradesh",
+            "duration": "6 months",
+            "stipend": "₹4,000/month",
+            "education_required": "12th Pass",
+            "required_skills": [
+                "Hindi",
+                "Communication",
+                "Manual Work"
+            ],
+            "description": "Work with farmers to improve crop yield and farming techniques"
+        },
+        {
+            "id": "INT009",
+            "title": "Accountant Trainee",
+            "company": "Deloitte India",
+            "sector": "Finance & Banking",
+            "location": "Delhi",
+            "duration": "4 months",
+            "stipend": "₹7,000/month",
+            "education_required": "Bachelor's Degree",
+            "required_skills": [
+                "Accounting",
+                "MS Office",
+                "English"
+            ],
+            "description": "Learn accounting and financial reporting"
+        },
+        {
+            "id": "INT010",
+            "title": "Healthcare Assistant",
+            "company": "Apollo Hospitals",
+            "sector": "Healthcare",
+            "location": "Chennai",
+            "duration": "3 months",
+            "stipend": "₹5,000/month",
+            "education_required": "12th Pass",
+            "required_skills": [
+                "Communication",
+                "Hindi",
+                "Customer Service"
+            ],
+            "description": "Assist doctors and help patients at hospital reception"
+        },
+        {
+            "id": "INT011",
+            "title": "Retail Store Assistant",
+            "company": "Big Bazaar",
+            "sector": "Retail",
+            "location": "Kolkata",
+            "duration": "2 months",
+            "stipend": "₹3,000/month",
+            "education_required": "10th Pass",
+            "required_skills": [
+                "Customer Service",
+                "Hindi",
+                "Communication"
+            ],
+            "description": "Help customers find products and maintain store shelves"
+        },
+        {
+            "id": "INT012",
+            "title": "Web Developer Intern",
+            "company": "Infosys",
+            "sector": "IT & Software",
+            "location": "Pune",
+            "duration": "3 months",
+            "stipend": "₹6,000/month",
+            "education_required": "Bachelor's Degree",
+            "required_skills": [
+                "Python",
+                "Java",
+                "Communication"
+            ],
+            "description": "Build and test websites and web applications"
+        },
+        {
+            "id": "INT013",
+            "title": "Government Data Officer",
+            "company": "Ministry of Rural Development",
+            "sector": "Government",
+            "location": "New Delhi",
+            "duration": "6 months",
+            "stipend": "₹8,000/month",
+            "education_required": "Bachelor's Degree",
+            "required_skills": [
+                "MS Office",
+                "Data Entry",
+                "Hindi",
+                "English"
+            ],
+            "description": "Collect and manage data for rural development schemes"
+        },
+        {
+            "id": "INT014",
+            "title": "Hospitality Trainee",
+            "company": "Taj Hotels",
+            "sector": "Hospitality",
+            "location": "Goa",
+            "duration": "4 months",
+            "stipend": "₹4,500/month",
+            "education_required": "12th Pass",
+            "required_skills": [
+                "Communication",
+                "English",
+                "Customer Service"
+            ],
+            "description": "Learn hotel operations and guest services"
+        },
+        {
+            "id": "INT015",
+            "title": "Social Media Manager Intern",
+            "company": "Zomato",
+            "sector": "Marketing & Sales",
+            "location": "Remote",
+            "duration": "2 months",
+            "stipend": "₹5,000/month",
+            "education_required": "Bachelor's Degree",
+            "required_skills": [
+                "Social Media",
+                "Communication",
+                "English"
+            ],
+            "description": "Create posts and manage social media accounts"
+        }
+    ]
+}
