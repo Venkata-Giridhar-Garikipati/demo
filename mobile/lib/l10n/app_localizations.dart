@@ -36,6 +36,17 @@ class AppLocalizations {
       'please_select_option': 'Please select an option',
       'searching_recommendations': 'Searching recommendations...',
       
+      // Resume Upload
+      'upload_resume': 'Upload Resume',
+      'upload_resume_optional': 'Upload Resume (Optional)',
+      'or': 'OR',
+      'manual_entry': 'Enter Manually',
+      'parsing_resume': 'Parsing your resume...',
+      'resume_parsed': 'Resume parsed! Found',
+      'skills_found': 'skills',
+      'parse_error': 'Could not parse resume. Please enter manually.',
+      'select_file': 'Select PDF, DOCX or TXT file',
+      
       // Education Levels
       '10th_pass': '10th Pass',
       '12th_pass': '12th Pass',
@@ -43,7 +54,7 @@ class AppLocalizations {
       'bachelors': "Bachelor's Degree",
       'masters': "Master's Degree",
       
-      // Sectors
+      // Sectors (Extended)
       'it_software': 'IT & Software',
       'manufacturing': 'Manufacturing',
       'marketing_sales': 'Marketing & Sales',
@@ -54,8 +65,19 @@ class AppLocalizations {
       'retail': 'Retail',
       'hospitality': 'Hospitality',
       'government': 'Government',
+      'media_entertainment': 'Media & Entertainment',
+      'food_beverage': 'Food & Beverage',
+      'logistics': 'Logistics & Supply Chain',
+      'renewable_energy': 'Renewable Energy',
+      'ecommerce': 'E-commerce',
+      'textiles': 'Textiles & Apparel',
+      'tourism': 'Tourism & Travel',
+      'construction': 'Construction & Infrastructure',
+      'social_work': 'Social Work & NGO',
+      'automobile': 'Automobile & Automotive',
+      'legal': 'Legal Services',
       
-      // Locations
+      // Locations (Extended)
       'delhi': 'Delhi',
       'mumbai': 'Mumbai',
       'bangalore': 'Bangalore',
@@ -65,13 +87,20 @@ class AppLocalizations {
       'pune': 'Pune',
       'goa': 'Goa',
       'madhya_pradesh': 'Madhya Pradesh',
+      'bihar': 'Bihar',
+      'gujarat': 'Gujarat',
+      'rajasthan': 'Rajasthan',
       'remote': 'Remote',
       
-      // Skills
+      // Skills (Extended)
       'communication': 'Communication',
       'ms_office': 'MS Office',
       'english': 'English',
       'hindi': 'Hindi',
+      'tamil': 'Tamil',
+      'telugu': 'Telugu',
+      'bengali': 'Bengali',
+      'marathi': 'Marathi',
       'python': 'Python',
       'java': 'Java',
       'sales': 'Sales',
@@ -81,6 +110,16 @@ class AppLocalizations {
       'accounting': 'Accounting',
       'teaching': 'Teaching',
       'manual_work': 'Manual Work',
+      'networking': 'Networking',
+      'problem_solving': 'Problem Solving',
+      'writing': 'Writing',
+      'research': 'Research',
+      'photoshop': 'Photoshop',
+      'creativity': 'Creativity',
+      'video_editing': 'Video Editing',
+      'autocad': 'AutoCAD',
+      'engineering': 'Engineering',
+      'data_analysis': 'Data Analysis',
       
       // Recommendation Screen
       'recommendations_for_you': 'Recommendations for You',
@@ -103,6 +142,9 @@ class AppLocalizations {
       'sector_match': 'Sector',
       'location_match': 'Location',
       'education_match': 'Education',
+      'duration': 'Duration',
+      'stipend': 'Stipend',
+      'company': 'Company',
       
       // Language
       'language': 'Language',
@@ -131,6 +173,17 @@ class AppLocalizations {
       'please_select_option': 'कृपया एक विकल्प चुनें',
       'searching_recommendations': 'सिफारिशें खोज रहे हैं...',
       
+      // Resume Upload
+      'upload_resume': 'रिज्यूमे अपलोड करें',
+      'upload_resume_optional': 'रिज्यूमे अपलोड करें (वैकल्पिक)',
+      'or': 'या',
+      'manual_entry': 'मैन्युअल रूप से भरें',
+      'parsing_resume': 'रिज्यूमे पार्स कर रहे हैं...',
+      'resume_parsed': 'रिज्यूमे पार्स हुआ! मिले',
+      'skills_found': 'कौशल',
+      'parse_error': 'रिज्यूमे पार्स नहीं हो सका। कृपया मैन्युअल भरें।',
+      'select_file': 'PDF, DOCX या TXT फ़ाइल चुनें',
+      
       // Education Levels
       '10th_pass': '10वीं पास',
       '12th_pass': '12वीं पास',
@@ -138,7 +191,7 @@ class AppLocalizations {
       'bachelors': 'स्नातक की डिग्री',
       'masters': 'स्नातकोत्तर की डिग्री',
       
-      // Sectors
+      // Sectors (Extended)
       'it_software': 'आईटी और सॉफ्टवेयर',
       'manufacturing': 'विनिर्माण',
       'marketing_sales': 'विपणन और बिक्री',
@@ -149,8 +202,19 @@ class AppLocalizations {
       'retail': 'खुदरा',
       'hospitality': 'आतिथ्य',
       'government': 'सरकार',
+      'media_entertainment': 'मीडिया और मनोरंजन',
+      'food_beverage': 'खाद्य और पेय',
+      'logistics': 'लॉजिस्टिक्स और आपूर्ति श्रृंखला',
+      'renewable_energy': 'नवीकरणीय ऊर्जा',
+      'ecommerce': 'ई-कॉमर्स',
+      'textiles': 'वस्त्र और परिधान',
+      'tourism': 'पर्यटन और यात्रा',
+      'construction': 'निर्माण और बुनियादी ढांचा',
+      'social_work': 'सामाजिक कार्य और एनजीओ',
+      'automobile': 'ऑटोमोबाइल और मोटर वाहन',
+      'legal': 'कानूनी सेवाएं',
       
-      // Locations
+      // Locations (Extended)
       'delhi': 'दिल्ली',
       'mumbai': 'मुंबई',
       'bangalore': 'बेंगलुरु',
@@ -160,13 +224,20 @@ class AppLocalizations {
       'pune': 'पुणे',
       'goa': 'गोवा',
       'madhya_pradesh': 'मध्य प्रदेश',
+      'bihar': 'बिहार',
+      'gujarat': 'गुजरात',
+      'rajasthan': 'राजस्थान',
       'remote': 'रिमोट',
       
-      // Skills
+      // Skills (Extended)
       'communication': 'संचार',
       'ms_office': 'एमएस ऑफिस',
       'english': 'अंग्रेज़ी',
       'hindi': 'हिंदी',
+      'tamil': 'तमिल',
+      'telugu': 'तेलुगु',
+      'bengali': 'बंगाली',
+      'marathi': 'मराठी',
       'python': 'पायथन',
       'java': 'जावा',
       'sales': 'बिक्री',
@@ -176,6 +247,16 @@ class AppLocalizations {
       'accounting': 'लेखांकन',
       'teaching': 'शिक्षण',
       'manual_work': 'शारीरिक कार्य',
+      'networking': 'नेटवर्किंग',
+      'problem_solving': 'समस्या समाधान',
+      'writing': 'लेखन',
+      'research': 'अनुसंधान',
+      'photoshop': 'फोटोशॉप',
+      'creativity': 'रचनात्मकता',
+      'video_editing': 'वीडियो संपादन',
+      'autocad': 'ऑटोकैड',
+      'engineering': 'इंजीनियरिंग',
+      'data_analysis': 'डेटा विश्लेषण',
       
       // Recommendation Screen
       'recommendations_for_you': 'आपके लिए सिफारिशें',
@@ -198,6 +279,9 @@ class AppLocalizations {
       'sector_match': 'क्षेत्र',
       'location_match': 'स्थान',
       'education_match': 'शिक्षा',
+      'duration': 'अवधि',
+      'stipend': 'वजीफा',
+      'company': 'कंपनी',
       
       // Language
       'language': 'भाषा',
@@ -228,6 +312,15 @@ class AppLocalizations {
   String get selectAtLeastOneSkill => translate('select_at_least_one_skill');
   String get pleaseSelectOption => translate('please_select_option');
   String get searchingRecommendations => translate('searching_recommendations');
+  String get uploadResume => translate('upload_resume');
+  String get uploadResumeOptional => translate('upload_resume_optional');
+  String get or => translate('or');
+  String get manualEntry => translate('manual_entry');
+  String get parsingResume => translate('parsing_resume');
+  String get resumeParsed => translate('resume_parsed');
+  String get skillsFound => translate('skills_found');
+  String get parseError => translate('parse_error');
+  String get selectFile => translate('select_file');
   String get recommendationsForYou => translate('recommendations_for_you');
   String get noInternshipsFound => translate('no_internships_found');
   String get tryDifferentOptions => translate('try_different_options');
@@ -244,6 +337,9 @@ class AppLocalizations {
   String get applicationSubmitted => translate('application_submitted');
   String get close => translate('close');
   String get scoreBreakdown => translate('score_breakdown');
+  String get duration => translate('duration');
+  String get stipend => translate('stipend');
+  String get company => translate('company');
   String get language => translate('language');
   String get changeLanguage => translate('change_language');
 }

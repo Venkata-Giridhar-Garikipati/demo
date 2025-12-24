@@ -15,10 +15,28 @@ class RecommendationScreen extends StatelessWidget {
     final l10n = AppLocalizations.of(context)!;
 
     return Scaffold(
+      backgroundColor: Colors.grey[50],
       appBar: AppBar(
-        title: Text(l10n.recommendationsForYou),
+        elevation: 0,
+        backgroundColor: Colors.transparent,
+        flexibleSpace: Container(
+          decoration: BoxDecoration(
+            gradient: LinearGradient(
+              colors: [Colors.orange[700]!, Colors.orange[500]!],
+              begin: Alignment.topLeft,
+              end: Alignment.bottomRight,
+            ),
+          ),
+        ),
+        title: Text(
+          l10n.recommendationsForYou,
+          style: const TextStyle(
+            fontWeight: FontWeight.bold,
+            color: Colors.white,
+          ),
+        ),
         leading: IconButton(
-          icon: const Icon(Icons.arrow_back),
+          icon: const Icon(Icons.arrow_back, color: Colors.white),
           onPressed: () => Navigator.pop(context),
         ),
       ),
@@ -99,19 +117,38 @@ class RecommendationScreen extends StatelessWidget {
           ),
         ),
 
-        // List
+        // Responsive Grid/List
         Expanded(
-          child: ListView.builder(
-            padding: const EdgeInsets.all(16),
-            itemCount: recommendations.length,
-            itemBuilder: (context, index) {
-              return _buildInternshipCard(
-                context,
-                l10n,
-                recommendations[index],
-                index + 1,
-              );
-            },
+          child: Center(
+            child: Container(
+              constraints: const BoxConstraints(maxWidth: 1200),
+              child: LayoutBuilder(
+                builder: (context, constraints) {
+                  // Use grid for web (width > 700px), list for mobile
+                  final isWeb = constraints.maxWidth > 700;
+                  final crossAxisCount = isWeb ? 2 : 1;
+
+                  return GridView.builder(
+                    padding: EdgeInsets.all(isWeb ? 20 : 16),
+                    gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+                      crossAxisCount: crossAxisCount,
+                      crossAxisSpacing: 20,
+                      mainAxisSpacing: 20,
+                      mainAxisExtent: isWeb ? 420 : 480, // Fixed height for cards
+                    ),
+                    itemCount: recommendations.length,
+                    itemBuilder: (context, index) {
+                      return _buildInternshipCard(
+                        context,
+                        l10n,
+                        recommendations[index],
+                        index + 1,
+                      );
+                    },
+                  );
+                },
+              ),
+            ),
           ),
         ),
       ],
@@ -125,11 +162,15 @@ class RecommendationScreen extends StatelessWidget {
     int rank,
   ) {
     return Card(
-      margin: const EdgeInsets.only(bottom: 16),
+      elevation: 3,
+      shape: RoundedRectangleBorder(
+        borderRadius: BorderRadius.circular(16),
+      ),
       child: Padding(
         padding: const EdgeInsets.all(16),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
+          mainAxisSize: MainAxisSize.min,
           children: [
             // Rank Badge & Score
             Row(

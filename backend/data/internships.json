@@ -240,6 +240,306 @@
                 "English"
             ],
             "description": "Create posts and manage social media accounts"
+        },
+        {
+            "id": "INT016",
+            "title": "Cybersecurity Trainee",
+            "company": "Wipro",
+            "sector": "IT & Software",
+            "location": "Bangalore",
+            "duration": "4 months",
+            "stipend": "₹7,000/month",
+            "education_required": "Bachelor's Degree",
+            "required_skills": [
+                "Python",
+                "Networking",
+                "Problem Solving"
+            ],
+            "description": "Learn to protect systems from cyber threats"
+        },
+        {
+            "id": "INT017",
+            "title": "Content Writer Intern",
+            "company": "Times of India",
+            "sector": "Media & Entertainment",
+            "location": "Mumbai",
+            "duration": "3 months",
+            "stipend": "₹4,000/month",
+            "education_required": "Bachelor's Degree",
+            "required_skills": [
+                "English",
+                "Writing",
+                "Research"
+            ],
+            "description": "Write articles and news stories for digital platforms"
+        },
+        {
+            "id": "INT018",
+            "title": "Graphic Designer Intern",
+            "company": "Ogilvy India",
+            "sector": "Media & Entertainment",
+            "location": "Delhi",
+            "duration": "2 months",
+            "stipend": "₹5,000/month",
+            "education_required": "Diploma",
+            "required_skills": [
+                "Photoshop",
+                "Creativity",
+                "Communication"
+            ],
+            "description": "Create visual designs for advertising campaigns"
+        },
+        {
+            "id": "INT019",
+            "title": "Food Processing Intern",
+            "company": "Amul",
+            "sector": "Food & Beverage",
+            "location": "Gujarat",
+            "duration": "6 months",
+            "stipend": "₹4,500/month",
+            "education_required": "12th Pass",
+            "required_skills": [
+                "Manual Work",
+                "Hindi",
+                "Quality Control"
+            ],
+            "description": "Learn dairy processing and quality assurance"
+        },
+        {
+            "id": "INT020",
+            "title": "Logistics Coordinator",
+            "company": "Blue Dart",
+            "sector": "Logistics & Supply Chain",
+            "location": "Chennai",
+            "duration": "3 months",
+            "stipend": "₹4,000/month",
+            "education_required": "12th Pass",
+            "required_skills": [
+                "MS Office",
+                "Communication",
+                "Organization"
+            ],
+            "description": "Manage package tracking and delivery coordination"
+        },
+        {
+            "id": "INT021",
+            "title": "Solar Energy Technician",
+            "company": "Tata Power Solar",
+            "sector": "Renewable Energy",
+            "location": "Rajasthan",
+            "duration": "6 months",
+            "stipend": "₹5,500/month",
+            "education_required": "Diploma",
+            "required_skills": [
+                "Electrical Work",
+                "Manual Work",
+                "Hindi"
+            ],
+            "description": "Install and maintain solar panel systems"
+        },
+        {
+            "id": "INT022",
+            "title": "E-commerce Operations Intern",
+            "company": "Amazon India",
+            "sector": "E-commerce",
+            "location": "Hyderabad",
+            "duration": "3 months",
+            "stipend": "₹6,000/month",
+            "education_required": "Bachelor's Degree",
+            "required_skills": [
+                "MS Office",
+                "Data Analysis",
+                "Communication"
+            ],
+            "description": "Support online order processing and inventory management"
+        },
+        {
+            "id": "INT023",
+            "title": "Textile Designer Assistant",
+            "company": "Raymond Group",
+            "sector": "Textiles & Apparel",
+            "location": "Surat",
+            "duration": "4 months",
+            "stipend": "₹3,500/month",
+            "education_required": "12th Pass",
+            "required_skills": [
+                "Creativity",
+                "Manual Work",
+                "Hindi"
+            ],
+            "description": "Assist in fabric design and quality checking"
+        },
+        {
+            "id": "INT024",
+            "title": "Tourism Guide Trainee",
+            "company": "Incredible India Tours",
+            "sector": "Tourism & Travel",
+            "location": "Jaipur",
+            "duration": "2 months",
+            "stipend": "₹3,000/month",
+            "education_required": "12th Pass",
+            "required_skills": [
+                "Communication",
+                "English",
+                "Hindi"
+            ],
+            "description": "Learn to guide tourists and share cultural heritage"
+        },
+        {
+            "id": "INT025",
+            "title": "Civil Engineering Intern",
+            "company": "Larsen & Toubro",
+            "sector": "Construction & Infrastructure",
+            "location": "Mumbai",
+            "duration": "6 months",
+            "stipend": "₹8,000/month",
+            "education_required": "Bachelor's Degree",
+            "required_skills": [
+                "AutoCAD",
+                "Engineering",
+                "Problem Solving"
+            ],
+            "description": "Work on infrastructure projects and learn construction management"
+        },
+        {
+            "id": "INT026",
+            "title": "NGO Field Worker",
+            "company": "Pratham Foundation",
+            "sector": "Social Work & NGO",
+            "location": "Bihar",
+            "duration": "6 months",
+            "stipend": "₹3,500/month",
+            "education_required": "12th Pass",
+            "required_skills": [
+                "Communication",
+                "Hindi",
+                "Social Work"
+            ],
+            "description": "Work with rural communities on education programs"
+        },
+        {
+            "id": "INT027",
+            "title": "Automobile Mechanic Trainee",
+            "company": "Maruti Suzuki",
+            "sector": "Automobile & Automotive",
+            "location": "Gurgaon",
+            "duration": "6 months",
+            "stipend": "₹5,000/month",
+            "education_required": "10th Pass",
+            "required_skills": [
+                "Manual Work",
+                "Mechanical Skills",
+                "Hindi"
+            ],
+            "description": "Learn vehicle repair and maintenance"
+        },
+        {
+            "id": "INT028",
+            "title": "Pharmacy Assistant",
+            "company": "Apollo Pharmacy",
+            "sector": "Healthcare",
+            "location": "Pune",
+            "duration": "3 months",
+            "stipend": "₹4,000/month",
+            "education_required": "12th Pass",
+            "required_skills": [
+                "Customer Service",
+                "MS Office",
+                "English"
+            ],
+            "description": "Assist pharmacists and manage medicine inventory"
+        },
+        {
+            "id": "INT029",
+            "title": "Video Editor Intern",
+            "company": "Dice Media",
+            "sector": "Media & Entertainment",
+            "location": "Mumbai",
+            "duration": "3 months",
+            "stipend": "₹6,000/month",
+            "education_required": "Bachelor's Degree",
+            "required_skills": [
+                "Video Editing",
+                "Creativity",
+                "Communication"
+            ],
+            "description": "Edit videos for web series and digital content"
+        },
+        {
+            "id": "INT030",
+            "title": "Legal Assistant Intern",
+            "company": "Khaitan & Co",
+            "sector": "Legal Services",
+            "location": "Delhi",
+            "duration": "4 months",
+            "stipend": "₹7,000/month",
+            "education_required": "Bachelor's Degree",
+            "required_skills": [
+                "Research",
+                "English",
+                "MS Office"
+            ],
+            "description": "Assist lawyers with legal research and documentation"
         }
+    ],
+    "sectors": [
+        "IT & Software",
+        "Marketing & Sales",
+        "Manufacturing",
+        "Finance & Banking",
+        "Healthcare",
+        "Education",
+        "Agriculture",
+        "Retail",
+        "Hospitality",
+        "Government",
+        "Media & Entertainment",
+        "Food & Beverage",
+        "Logistics & Supply Chain",
+        "Renewable Energy",
+        "E-commerce",
+        "Textiles & Apparel",
+        "Tourism & Travel",
+        "Construction & Infrastructure",
+        "Social Work & NGO",
+        "Automobile & Automotive",
+        "Legal Services"
+    ],
+    "skills": [
+        "Communication",
+        "MS Office",
+        "English",
+        "Hindi",
+        "Python",
+        "Java",
+        "Sales",
+        "Customer Service",
+        "Data Entry",
+        "Social Media",
+        "Accounting",
+        "Teaching",
+        "Manual Work",
+        "Driving",
+        "Networking",
+        "Problem Solving",
+        "Writing",
+        "Research",
+        "Photoshop",
+        "Creativity",
+        "Quality Control",
+        "Organization",
+        "Electrical Work",
+        "Data Analysis",
+        "AutoCAD",
+        "Engineering",
+        "Social Work",
+        "Mechanical Skills",
+        "Video Editing",
+        "Tamil",
+        "Telugu",
+        "Bengali",
+        "Marathi",
+        "Gujarati",
+        "Kannada"
     ]
 }
